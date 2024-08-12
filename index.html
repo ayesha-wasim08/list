@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Song</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header id="song">
+        <h1>NATIONAL SONG</h1>
+    </header>
+    <section id="song-list">
+        <video src="./song/Pakistan Flag.mp4" autoplay muted loop></video>
+        <h2>Select A Song</h2>
+        <ul>
+            <li data-song="song/song6.mp3">National Anthem of Pakistan - Original Composition Instrumental</li>
+            <li data-song="song/song8.mp3">Dil Dil Pakistan (Lyrical) - Vital Signs 1</li>
+            <li data-song="song/song1.mp3.mp3">Dil Say Maine Dekha Pakistan</li>
+            <li data-song="song/song2.mp3.mp3">Meray Watan Ye Aqeedatien</li>
+            <li data-song="song/song3.mp3">Tera Pakistan Hai</li>
+            <li data-song="song/song4.mp3">SOHNI DHARTI ALLAH RAKHAY BY SHAHNAZ BEGUM COMPOSER SOHAIL RANA</li>
+            <li data-song="song/song5.mp3">Pakistan Zindabad - 23 Mar 2019  Sahir Ali Bagga  Pakistan Day 2019 (ISPR Official Song)</li>
+            <li data-song="song/song7.mp3">Jeeway Jeeway Pakistan PTV 25th Anniversary</li>
+            <li data-song="song/song9.mp3">Is Parcham Kay Saaye Talay (new version 2017)</li>
+            <li data-song="song/song10.mp3">Chand Meri Zameen Phool Mera Watan  Shafqat Amanat Ali  23 March  Pakistan Day 2020</li>
+        </ul>
+    </section>
+    <section id="player">
+        <h2>NOW PLAYING</h2>
+        <p id="current-song">No Song Selected</p>
+        <audio controls id="audio"></audio>
+    </section>
+    <script src="./app.js"></script>
+</body>
+</html>
